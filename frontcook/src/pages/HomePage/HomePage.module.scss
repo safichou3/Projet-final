@@ -1,0 +1,23 @@
+h1{
+  margin-bottom: 25px;
+}
+
+.searchbar {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #EFEEEE;
+  border: none;
+  margin-bottom: 20px;
+}
+.searchbar:focus-visible, .searchbar:focus {
+  border: 1px solid red;
+}
+
+.sliderLink {
+  display: flex;
+  justify-content: flex-end;
+  color: #FA4A0C;
+  font-weight: 400;
+  margin-bottom: 15px;
+}

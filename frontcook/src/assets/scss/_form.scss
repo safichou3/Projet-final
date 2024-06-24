@@ -1,0 +1,40 @@
+.wrapform {
+  width: 100%;
+  max-width: 500px;
+  margin: 3rem auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error {
+  font-size: .8rem;
+  color: red;
+  transform: translateY(-1rem);
+}
+
+input[type=checkbox] {
+  width: 20px;
+}
+
+.input-box {
+  position: relative;
+
+  span.error {
+    position: absolute;
+    bottom: -1rem;
+    left: 1px;
+  }
+}
