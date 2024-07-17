@@ -1,0 +1,45 @@
+@import "../../../assets/scss/variables";
+
+.footer {
+  padding: 35px;
+  nav ul li a {
+    color: $black;
+    font-weight: bold;
+  }
+
+  /* .logo {
+     background: $white;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     border-radius: 50px;
+     width: 53px;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     img {
+       width: 30px;
+       height: 30px;
+     }
+   }*/
+
+  .footerflex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      font-size: 25px;
+      color: $primary;
+    }
+
+    .copyright {
+      color: $primary;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+
+
+  li {
+    padding: .5rem .7rem;
+    margin: 0 .2rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+
+    &:hover, &.current {
+      background-color: var(--accent-primary);
+      color: #fff;
+    }
+  }
+}
